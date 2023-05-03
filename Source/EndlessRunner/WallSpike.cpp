@@ -12,7 +12,7 @@ void AWallSpike::BeginPlay()
 {
     Super::BeginPlay();
 
-    this->GetRootComponent()->ComponentVelocity = FVector(0, 25, 0);
+    //this->GetRootComponent()->ComponentVelocity = FVector(0, 25, 0);
 }
 
 void AWallSpike::Tick(float DeltaTime)

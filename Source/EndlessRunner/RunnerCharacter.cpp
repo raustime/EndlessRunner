@@ -90,7 +90,7 @@ void ARunnerCharacter::OnOverlapBegin(UPrimitiveComponent* OverlappedComp, AActo
 	if (OtherActor)
 	{
 		ASpikes* WallSpike = Cast<AWallSpike>(OtherActor);
-		ASpikes* Spike = Cast<ASpike>(OtherActor);
+		ASpikes* Spike = Cast<ASpikes>(OtherActor);
 		if (WallSpike || Spike)
 		{
 			GetMesh()->Deactivate();
